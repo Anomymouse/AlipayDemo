@@ -31,6 +31,7 @@
     const char *pstr = [privateKey UTF8String];
     int len = (int)[privateKey length];
     NSMutableString *result = [NSMutableString string];
+                           
     [result appendString:@"-----BEGIN PRIVATE KEY-----\n"];
     int index = 0;
 	int count = 0;
