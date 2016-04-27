@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		C02B06D41CCF9733006D42FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B06D31CCF9733006D42FF /* main.m */; };
 		C02B06D71CCF9733006D42FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B06D61CCF9733006D42FF /* AppDelegate.m */; };
-		C02B06DA1CCF9733006D42FF /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B06D91CCF9733006D42FF /* MasterViewController.m */; };
-		C02B06DD1CCF9733006D42FF /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B06DC1CCF9733006D42FF /* DetailViewController.m */; };
 		C02B06E01CCF9733006D42FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02B06DE1CCF9733006D42FF /* Main.storyboard */; };
 		C02B06E21CCF9733006D42FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02B06E11CCF9733006D42FF /* Assets.xcassets */; };
 		C02B06E51CCF9733006D42FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02B06E31CCF9733006D42FF /* LaunchScreen.storyboard */; };
@@ -34,6 +32,7 @@
 		C02B07301CCFA08C006D42FF /* openssl in Resources */ = {isa = PBXBuildFile; fileRef = C02B072E1CCFA08C006D42FF /* openssl */; };
 		C02B07311CCFA08C006D42FF /* Util in Resources */ = {isa = PBXBuildFile; fileRef = C02B072F1CCFA08C006D42FF /* Util */; };
 		C02B07341CCFA72B006D42FF /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B07331CCFA72B006D42FF /* Order.m */; };
+		C02B07371CD06B89006D42FF /* AlipayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B07361CD06B89006D42FF /* AlipayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,10 +57,6 @@
 		C02B06D31CCF9733006D42FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C02B06D51CCF9733006D42FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C02B06D61CCF9733006D42FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C02B06D81CCF9733006D42FF /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		C02B06D91CCF9733006D42FF /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		C02B06DB1CCF9733006D42FF /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		C02B06DC1CCF9733006D42FF /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		C02B06DF1CCF9733006D42FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C02B06E11CCF9733006D42FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C02B06E41CCF9733006D42FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -91,6 +86,8 @@
 		C02B072F1CCFA08C006D42FF /* Util */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Util; sourceTree = "<group>"; };
 		C02B07321CCFA72B006D42FF /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
 		C02B07331CCFA72B006D42FF /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		C02B07351CD06B89006D42FF /* AlipayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlipayViewController.h; sourceTree = "<group>"; };
+		C02B07361CD06B89006D42FF /* AlipayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlipayViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,11 +159,9 @@
 				C02B06D61CCF9733006D42FF /* AppDelegate.m */,
 				C02B07321CCFA72B006D42FF /* Order.h */,
 				C02B07331CCFA72B006D42FF /* Order.m */,
-				C02B06D81CCF9733006D42FF /* MasterViewController.h */,
-				C02B06D91CCF9733006D42FF /* MasterViewController.m */,
-				C02B06DB1CCF9733006D42FF /* DetailViewController.h */,
-				C02B06DC1CCF9733006D42FF /* DetailViewController.m */,
 				C02B06DE1CCF9733006D42FF /* Main.storyboard */,
+				C02B07351CD06B89006D42FF /* AlipayViewController.h */,
+				C02B07361CD06B89006D42FF /* AlipayViewController.m */,
 				C02B06E11CCF9733006D42FF /* Assets.xcassets */,
 				C02B06E31CCF9733006D42FF /* LaunchScreen.storyboard */,
 				C02B06E61CCF9733006D42FF /* Info.plist */,
@@ -356,11 +351,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C02B07371CD06B89006D42FF /* AlipayViewController.m in Sources */,
 				C02B06D71CCF9733006D42FF /* AppDelegate.m in Sources */,
 				C02B07341CCFA72B006D42FF /* Order.m in Sources */,
-				C02B06DA1CCF9733006D42FF /* MasterViewController.m in Sources */,
 				C02B06D41CCF9733006D42FF /* main.m in Sources */,
-				C02B06DD1CCF9733006D42FF /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
